@@ -116,7 +116,7 @@ export class Home extends React.Component {
         <View style={{ marginTop: '40%' }}>
           <View style={{width: '100%',marginVertical: '10%' }}> 
             <Text style={{fontSize: 30, textAlign: 'center', color: 'white'}}>
-              Jail Break Workout
+              Say What!
             </Text>
           </View>
           <View style={{ width: '90%', flexDirection: 'row', marginTop: 20, marginHorizontal: '5%', borderColor: '#333333', backgroundColor: '#8C8C8C', borderRadius: 5, borderWidth: 2, }}>
@@ -158,7 +158,7 @@ export class Home extends React.Component {
           </View>
           <View style={{ width: '90%', flexDirection: 'row', marginTop: '15%', marginHorizontal: '5%', }}>
             <TouchableOpacity
-              style={{ marginTop: 25, height: 50, backgroundColor: '#ff6700', width: '100%', paddingVertical: 0, borderColor: '#333333', borderRadius: 5, borderWidth: 2, textAlign: 'center' }}
+              style={{ marginTop: 25, height: 50, backgroundColor: '#7dce94', width: '100%', paddingVertical: 0, borderColor: '#333333', borderRadius: 5, borderWidth: 2, textAlign: 'center' }}
               onPress={() => this.props.navigation.navigate('Main')} >
               <Text style={{ fontSize: 20, color: 'black', fontWeight: '500', marginTop: 10, textAlign: "center", width: '100%',  }}> Log in </Text>
             </TouchableOpacity>

@@ -39,8 +39,12 @@ export default class HomeScreen extends React.Component {
     return (
       <View>
 
-        <View style={{ backgroundColor: 'white', height: '100%', width: '100%', marginTop: 50 }}>
+        <View style={{ backgroundColor: 'white', height: '100%', width: '100%', marginTop: 0 }}>
 
+          <View style={{}}>
+
+          </View>
+{/* 
           <Text style={{ textAlign: 'center', fontSize: 25, fontWeight: 'bold', marginTop: '5%' }}>Welcome <Text style={{ fontWeight: 'normal', }}>{this.state.FirstName}</Text></Text>
           <Text style={{ paddingHorizontal: '5%', textAlign: 'center', marginBottom: '2%', fontSize: 20 }}>This is your Dashboard. </Text>
          
@@ -76,7 +80,7 @@ export default class HomeScreen extends React.Component {
                   }
                 />
               </View>
-          </View>
+          </View> */}
         </View>
       </View>
     );
