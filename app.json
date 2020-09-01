@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Jail Break Workout",
-    "slug": "jailbreakworkout",
+    "name": "Say What!",
+    "slug": "say-what",
     "privacy": "public",
     "platforms": [
       "ios",
@@ -26,6 +26,6 @@
       "supportsTablet": true
     },
     "description": "",
-    "githubUrl": "https://github.com/andre2656/JailBreakWorkout"
+    "githubUrl": "https://github.com/andre2656/say-what"
   }
 }
