@@ -113,13 +113,13 @@ export class Home extends React.Component {
   render() {
     return (
       <View style={{ backgroundColor: 'black', height: '100%' }} >
-        <View style={{ marginTop: '40%' }}>
+        <View style={{ marginTop: '20%' }}>
           <View style={{width: '100%',marginVertical: '10%' }}> 
             <Text style={{fontSize: 30, textAlign: 'center', color: 'white'}}>
               Say What!
             </Text>
           </View>
-          <View style={{ width: '90%', flexDirection: 'row', marginTop: 20, marginHorizontal: '5%', borderColor: '#333333', backgroundColor: '#8C8C8C', borderRadius: 5, borderWidth: 2, }}>
+          <View style={{ width: '90%', flexDirection: 'row', marginTop: 20, marginHorizontal: '5%', borderColor: '#333333', backgroundColor: '#8C8C8C', borderRadius: 5, borderWidth: 2, marginTop: '25%' }}>
             <TextInput style={{ maxHeight: 150, maxWidth: 350, width: '100%', fontSize: 18, padding: 10, color: '#EEEEEE' }}
               keyboardType='default'
               onChange={this.UsernameAuth}
